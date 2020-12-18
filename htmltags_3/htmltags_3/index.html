@@ -1,0 +1,65 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Html tegi chast 3 Formi</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+    <div>
+    	<p>Imya</p>
+    	<input tabindex="1" placeholder="Imya" name="username" type="text">
+    </div>
+    <div>
+    	<p>Parol</p>
+    	<input tabindex="2" name="userpass" type="password">
+    </div>
+    <div>
+    	<p>Telefon</p>
+    	<input tabindex="3" name="userphone" type="tel">
+    </div>
+    <div>
+    	<p>Pol</p>
+    	<div>
+    		<input tabindex="4" checked name="gender" value="male" type="radio"> Muzhskoi 
+    	</div>
+    	<div>
+    		<input tabindex="4" name="gender" value="female" type="radio"> Zhenskii
+    	</div>
+    </div>
+    <div>
+    	<p>Imushestvo</p>
+    	<div>
+    		<input tabindex="5" checked type="checkbox" name="bike" value="yes"> Velik
+    	</div> 
+    	<div>
+    		<input tabindex="6" type="checkbox" name="auto" value="yes"> Auto
+    	</div>
+    	<div>
+    		<input tabindex="7" disabled type="checkbox" name="house" value="yes"> Dom 
+    	</div>
+    </div>
+    <div>
+    	<p>Dopolnitelnaya Informatiya</p>
+    	<textarea tabindex="8" name="text"></textarea>
+    </div>
+    <div>
+    	<p>Prikrepit Foto</p>
+    	<input tabindex="9" name="foto" type="file">
+    </div>
+    <div>
+    	<p>Lübimii zvet</p>
+    	<select tabindex="10" name="color">
+    		<option value="red"> Krasnii </option>
+    		<option value="yellow"> Zheltii </option>
+    		<option selected value="blue"> Sinii </option>
+    	</select>
+    </div>
+    <div>
+    	<p>Deistviya</p>
+    	<button tabindex="11" type="submit"> otpravit </button>
+    	<button tabindex="12" type="reset"> ochistit </button>
+    </div>
+</form>
+</body>
+</html> 
