@@ -57,3 +57,37 @@ h2{
 .red{
 	color: #ff0000;
 }
+h3{
+	color: #445161;
+	font-size: 20px;
+}
+.textright{
+	text-align: right;
+	color: #333333;
+}
+.uppercase{
+	text-transform: uppercase;
+	color: #333333;
+}
+.italic{
+	color: #333333;
+	font-family: "Arial - Italic MT";
+}
+.decoration{
+	text-decoration: underline;
+	color: #333333;
+}
+.textcenter{
+	text-align: center;
+	color: #333333;
+}
+.textexample{
+	color: #333333;
+	font-size: 24px;
+	height: 22px;
+	width: 870px;
+}
+.textdecoration{
+	text-decoration: line-through;
+	color: #333333;
+}
