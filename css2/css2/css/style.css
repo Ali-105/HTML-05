@@ -91,3 +91,11 @@ h3{
 	text-decoration: line-through;
 	color: #333333;
 }
+.troman{
+	font-family: "Times New Roman PSMT";
+	color: #333333;
+}
+.shadow{
+    text-shadow: 1px 1px 1px #000000;
+    color: #333333;
+}
